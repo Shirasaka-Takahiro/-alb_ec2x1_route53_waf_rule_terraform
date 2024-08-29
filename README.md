@@ -6,13 +6,17 @@ ex)example-dev-alb-accesslog-bucket
 
 ■Resources
 <br />
-EC2(web) x 
+EC2(web) x 1
 <br />
 ALb x 1(HTTP & HTTPS Listener)
 <br />
 Route53
 <br />
 ACM
+<br />
+WAF(Web ACL)
+<br />
+※associating to ALB and existing rule groups with arn
 
 ■Deploy
 1. Move dev directory
